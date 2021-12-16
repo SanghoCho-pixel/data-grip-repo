@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="reviewDB" uuid="097d32db-f490-4945-ba2a-d53dadb88c63">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://review-service-db.cfsirs1gpxsq.ap-northeast-2.rds.amazonaws.com:3306/review_service_dev</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="dev_cms" uuid="c82f32f8-5d9a-4f19-8888-f20fc5f2502f">
+      <driver-ref>tibero</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.tmax.tibero.jdbc.TbDriver</jdbc-driver>
+      <jdbc-url>jdbc:tibero:thin:@220.90.208.123:8629:tibero</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="dev_b2b_4" uuid="846a2e2e-ff83-4179-8904-fe1e11b4a182">
+      <driver-ref>tibero</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.tmax.tibero.jdbc.TbDriver</jdbc-driver>
+      <jdbc-url>jdbc:tibero:thin:@220.90.208.123:8629:tibero</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="local_cms" uuid="b786a9c4-d5d2-476b-aa4d-3bd37697f333">
+      <driver-ref>tibero</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.tmax.tibero.jdbc.TbDriver</jdbc-driver>
+      <jdbc-url>jdbc:tibero:thin:@220.90.208.132:8629:tibero</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
